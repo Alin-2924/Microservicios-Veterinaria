@@ -1,0 +1,19 @@
+2025-04-03 14:05:06,892 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-04-03 14:06:09,746 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mx.Veterinaria:Veterinaria:0.0.1-SNAPSHOT @ C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Veterinaria\pom.xml.
+2025-04-03 14:06:27,214 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 14:06:27,341 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 14:06:27,361 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Veterinaria\src\test\resources
+2025-04-03 14:06:30,182 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 14:06:30,191 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 14:06:30,217 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Veterinaria\src\test\resources
+2025-04-03 14:07:37,705 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mx.Responsables:Responsables:0.0.1-SNAPSHOT @ C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Responsables\pom.xml.
+2025-04-03 14:07:40,702 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 14:07:40,756 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 14:07:40,787 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Responsables\src\test\resources
+2025-04-03 14:07:42,624 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mx.Responsables:Responsables:0.0.1-SNAPSHOT @ C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Responsables\pom.xml.
+2025-04-03 14:07:44,539 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 14:07:44,602 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 14:07:44,618 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Responsables\src\test\resources
+2025-04-03 14:07:46,098 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-03 14:07:46,104 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-03 14:07:46,118 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\Responsables\src\test\resources

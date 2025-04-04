@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\pc 01\Desktop\ENUCOM\Examen\Workspace\.metadata\.plugins\org.eclipse.jdt.core
+2690908032.index
+4165914227.index
+1865797976.index
+2056838458.index
