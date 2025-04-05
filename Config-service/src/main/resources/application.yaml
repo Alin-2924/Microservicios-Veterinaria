@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    confing:
+      server:
+        git:
+          default-label: config-server
+          uri: https://github.com/Alin-2924/Microservicios-Veterinaria
+          search-paths: config-data
+  application:
+    name: config-serve

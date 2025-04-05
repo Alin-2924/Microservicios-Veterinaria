@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Clientes
+  cloud:
+    confing:
+      enable: true
+      uri: http://localhost:8081
