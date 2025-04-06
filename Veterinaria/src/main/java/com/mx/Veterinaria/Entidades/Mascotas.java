@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Mascotas {
-	
+
 	private int idMascotas;
 	private String nombre;
 	private String raza;
@@ -13,9 +13,9 @@ public class Mascotas {
 	private int clienteId;
 	private int responsableId;
 	private int veterinariaId;
-	
-	public Mascotas () {
-		
+
+	public Mascotas() {
+
 	}
 
 	public Mascotas(int idMascotas, String nombre, String raza, int edad, String razonCita, int clienteId,
@@ -30,7 +30,5 @@ public class Mascotas {
 		this.responsableId = responsableId;
 		this.veterinariaId = veterinariaId;
 	}
-	
-	
 
 }

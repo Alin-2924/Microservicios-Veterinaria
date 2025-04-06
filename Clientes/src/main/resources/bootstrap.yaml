@@ -2,6 +2,8 @@ spring:
   application:
     name: Clientes
   cloud:
-    confing:
+    config:
       enable: true
       uri: http://localhost:8081
+server:
+  port: 8084  # Cambia el puerto a 8082 o al puerto que prefieras

@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.mx.Veterinaria.Entidades.Responsables;
 
-@FeignClient(name = "Responsables", url = "http://localhost:8002", path = "/R") 
+@FeignClient(name = "Responsables", url = "http://localhost:8002", path = "/R")
 public interface IResponsablesFeingClient {
-	
+
 	@GetMapping(path = "buscarPorVeterinaria/{veterinariaId}")
 	public List<Responsables> buscarPorVeterinaria(@PathVariable("veterinariaId") int veterinariaId);
-	
+
 	@PostMapping
 	public Responsables save(@RequestBody Responsables responsables);
 

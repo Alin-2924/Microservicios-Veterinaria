@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.mx.Veterinaria.Entidades.Mascotas;
 
-@FeignClient(name = "Mascotas", url = "http://localhost:8003", path = "/M") 
+@FeignClient(name = "Mascotas", url = "http://localhost:8003", path = "/M")
 public interface IMascotasFeingClient {
-	
+
 	@GetMapping(path = "buscarPorVeterinaria/{veterinariaId}")
 	public List<Mascotas> buscarPorVeterinaria(@PathVariable("veterinariaId") int veterinariaId);
-	
+
 	@PostMapping
 	public Mascotas save(@RequestBody Mascotas mascotas);
 
