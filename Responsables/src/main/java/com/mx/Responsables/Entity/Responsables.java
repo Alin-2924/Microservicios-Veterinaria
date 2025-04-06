@@ -7,6 +7,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
 
 @Entity
@@ -26,7 +27,7 @@ public class Responsables {
 	@Column(name = "CONTACTO", columnDefinition = "NUMBER(10)")
 	private long contacto;
 	
-	@Column(name = "VETERINARIA_ID", columnDefinition = "NUMBER")
+	@JoinColumn(name = "VETERINARIA_ID", columnDefinition = "NUMBER")
 	private int veterinariaId;
 	
 	public Responsables() {

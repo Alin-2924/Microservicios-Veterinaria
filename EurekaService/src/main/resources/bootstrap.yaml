@@ -1,7 +1,10 @@
+server:
+  port: 8761
+
 spring:
   application:
     name: EurekaService
   cloud:
-    confing:
+    config:
       enable: true
       uri: http://localhost:8081

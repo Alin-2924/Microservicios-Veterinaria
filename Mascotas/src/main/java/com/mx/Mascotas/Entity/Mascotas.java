@@ -5,10 +5,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "MACOTAS")
+@Table(name = "MASCOTAS")
 public class Mascotas {
 	
 	@Id
@@ -28,14 +29,18 @@ public class Mascotas {
 	@Column(name = "RAZON_CITA", columnDefinition = "NVARCHAR2(100)")
 	private String razonCita;
 	
-	@Column(name = "CLIENTE_ID", columnDefinition = "NUMBER")
+	@JoinColumn(name = "CLIENTE_ID", columnDefinition = "NUMBER")
 	private int clienteId;
 	
-	@Column(name = "RESPONSABLE_ID", columnDefinition = "NUMBER")
+	@JoinColumn(name = "RESPONSABLE_ID", columnDefinition = "NUMBER")
 	private int responsableId;
 	
-	@Column(name = "VETERINARIA_ID", columnDefinition = "NUMBER")
+	@JoinColumn(name = "VETERINARIA_ID", columnDefinition = "NUMBER")
 	private int veterinariaId;
+	
+	public Mascotas() {
+		
+	}
 
 	public Mascotas(int idMascotas, String nombre, String raza, int edad, String razonCita, int clienteId,
 			int responsableId, int veterinariaId) {
