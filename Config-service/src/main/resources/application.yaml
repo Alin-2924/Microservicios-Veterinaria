@@ -10,5 +10,5 @@ spring:
       server:
         git:
           uri: https://github.com/Alin-2924/Microservicios-Veterinaria
-          default-label: main
+          default-label: multiple-instances
           search-paths: .
