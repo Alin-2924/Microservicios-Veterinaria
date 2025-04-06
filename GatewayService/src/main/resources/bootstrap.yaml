@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Veterinaria
+    name: gateway
   cloud:
     config:
       enabled: true

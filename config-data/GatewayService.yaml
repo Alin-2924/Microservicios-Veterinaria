@@ -1,0 +1,34 @@
+server:
+  port: 8085
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: Veterinaria
+          uri: lb://veterianaria
+          predicates:
+            - Path/V/""
+        - id: Responsables
+          uri: lb://responsables
+          predicates:
+            - Path/R/""
+        - id: Mascotas
+          uri: lb://mascotas
+          predicates:
+            - Path/M/""
+        - id: Clientes
+          uri: lb://clientes
+          predicates:
+            - Path/C/""
